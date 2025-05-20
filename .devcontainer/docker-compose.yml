@@ -5,6 +5,9 @@ services:
     build:
       context: ./
       dockerfile: Dockerfile
+    entrypoint: "npm run dev"
     volumes:
       - ../:/workspace/react-playground
+    ports:
+      - "3000:3000"
     tty: true
