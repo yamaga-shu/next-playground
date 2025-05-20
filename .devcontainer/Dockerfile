@@ -1,3 +1,3 @@
 FROM mcr.microsoft.com/devcontainers/javascript-node
 
-WORKDIR /workspace/react-playground
+WORKDIR /workspace/next-playground

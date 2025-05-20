@@ -1,11 +1,11 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/go
 {
-  "name": "react-playground",
+  "name": "next-playground",
 
   "dockerComposeFile": "./docker-compose.yml",
-  "service": "react-playground",
-  "workspaceFolder": "/workspace/react-playground",
+  "service": "next-playground",
+  "workspaceFolder": "/workspace/next-playground",
 
   // Features to add to the dev container. More info: https://containers.dev/features.
   // "features": {},

@@ -1,13 +1,13 @@
-name: react-playground
+name: next-playground
 services:
-  react-playground:
-    container_name: react-playground
+  next-playground:
+    container_name: next-playground
     build:
       context: ./
       dockerfile: Dockerfile
     entrypoint: "npm run dev"
     volumes:
-      - ../:/workspace/react-playground
+      - ../:/workspace/next-playground
     ports:
       - "3000:3000"
     tty: true
