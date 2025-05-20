@@ -1,0 +1,10 @@
+name: react-playground
+services:
+  react-playground:
+    container_name: react-playground
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    volumes:
+      - ../:/workspace/react-playground
+    tty: true
